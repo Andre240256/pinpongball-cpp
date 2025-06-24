@@ -10,6 +10,8 @@
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                //para usar o ranges preciso compilar a mais nova versao 20 do c++
+                "-std=c++20",
                 //argumentos para incluir o GLFW animal ksjskajskajsks
                 "-I",
                 "C:/glfw-3.4.bin.WIN64/include",
